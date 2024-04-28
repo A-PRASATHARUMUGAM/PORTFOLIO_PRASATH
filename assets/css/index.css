@@ -1,39 +1,50 @@
+html{
+  font-size: 100%;
+}
 *{
-    margin: 0px;
+    margin: 0%;
     padding: 0%;
-
+    box-sizing: border-box;
+    font-variant: small-caps;
+    text-decoration: none;
 }
 body{
 background-image: url(../image/homebg.jpg);
+background-attachment: fixed;
 background-repeat: no-repeat;
 background-size:cover ;
 background-position: center;
-background-attachment: fixed;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+background-color: black;
+font-size: 10px;
+line-height: 1.6;
+
     
 }
 .header{
   display: flex;
   justify-content: space-between;
+  align-items: center;
   position: fixed;
   left: 0%;
   right: 0%;
-  padding: 25px;
+  padding:16px;
+  background:linear-gradient(to right,rgb(0, 172, 240,0.80),rgba(255, 0, 0, 0.80));         
+  
   
   }
 
 .navbar a{
-  text-decoration: none;
-  font-family: monospace;
-  font-weight: bold;
-  font-size: 20px;
+  font-size:2em;
   color:#ededed;
-  margin-left:20px ;
-  border-radius: 10px;
-  padding: 10px;
+  margin-left:2em;
+  border-radius:2px;
+  padding:8px;
+  font-weight: bold;
 }
   .navbar a:hover{
     background-color: #00abf0;
-    color: #ededed;
+    color:white; 
     transition: 0.5s; 
     }
     .logo{  
@@ -43,78 +54,77 @@ background-attachment: fixed;
       font-family: monospace;
       font-weight: bold;
       font-size: 25px;
-      color:#ededed;
+      color:white;
    }
-
-
-section{
-    color: #ededed;
-    font-size: 50px;
-    height: 100vh;
-   display: flex;
-   align-items: center; 
-   width: 123vh;
-   margin-left:50px;
-   margin-right: 0px;
-   text-align:left;
- padding-inline:6%;
+.box-head{
+  height:7.2em;
 }
-h4{
-    color: #00abf0;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 30px;
-    font-size: 7vh;
-    margin-bottom: 30px;
-
-
+/* section  1********************************************* */
+.main-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:89vh;
+  
 }
-
-#btn{
-     font-family:monospace;
-    border-radius: 16px;
-    padding: 10px;   
-    width: 20vh;
-     font-size: 25px;
-     text-align: center;
-     border: 2px solid #00abf0;
-      
+.name{
+  color: #00abf0;
+  font-weight:bold;
+  font-size:7em;
+  
 }
-#hireme{
-  text-decoration: none;
-   color: white;
-    font-weight:bold;
+.name-description{
+  text-align: justify;
+  font-size:4.2em;
+  width:80vw;
+  color: white;
 
 }
-#btn:hover{ 
-    background-color:#00abf0;
+.button-container{
+  margin-top:5em;
+  margin-bottom:5em;
+}
+
+
+.button-primary,.button-secondary{
+  padding:14px;
+  width:8em;
+  border: none;
+  font-size:1.8em;
+  font-weight: bold;
+  background:linear-gradient(to right,rgb(3, 184, 255),rgba(0, 172, 240, 0.05));
+  border:2px solid white;
+  color: white;
+  border-radius:4px;
+  
+  
+}
+.button-secondary{
+  margin-left:3em;
+}
+.button-primary:hover,.button-secondary:hover{
+  background:linear-gradient(to right,rgb(0, 172, 240),rgba(255, 0, 0, 0.600)) ;  
+    border:2px solid white;
     transition: 0.5s;
+
 }
-p{
-    margin-bottom: 50px;
+
+.icon-link__container{
+  display: flex;
+  justify-content:space-evenly;
+  position: fixed;
+  left:1px;
+  bottom:1px;
+  width:130px;
+  border-radius: 50%;
  
 }
+img{
+  width:30px;
+}
+#icon3{
+  background-color: white;
+  border-radius:60%;
+  border:1px solid white;
+}
 
-#icon1 {
-  position: absolute;
-  bottom: 10px;
-  left: 50px;
-   width: 40px;
-     }
-  
-  
-     #icon2{
-      position: absolute;
-  bottom: 10px;
-  left: 17vh;
-   width: 40px;
-     }
-     #icon3{
-      position: absolute;
-      bottom: 10px;
-      left: 27vh;
-       width: 40px;
-     }
-     body{
-      background-color: black;
-     }
-  
