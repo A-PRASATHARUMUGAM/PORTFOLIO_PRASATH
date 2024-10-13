@@ -28,7 +28,7 @@ html{
     position: fixed;
     left: 0%;
     right: 0%;
-    padding:16px;
+    padding:10px;
     background:linear-gradient(to right,rgb(0, 172, 240,0.80),rgba(255, 0, 0, 0.80));     
     }
   
@@ -37,7 +37,7 @@ html{
     color:#ededed;
     margin-left:2em;
     border-radius:2px;
-    padding:8px;
+    padding:6px;
     font-weight: bold;
   }
     .navbar a:hover{
