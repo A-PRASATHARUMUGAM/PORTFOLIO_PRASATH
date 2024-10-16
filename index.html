@@ -9,21 +9,30 @@
 </head>
 <body>
 
-  <header class="header">
-   <a href="index.html"><p class="logo" >Portfolio</p></a> 
-    <nav class="navbar">   
-     <a href="index.html">Home</a>
-     <a href="project.html">Projects</a>
-     <a href="About.html">About me</a>
-    </nav>
-  </header>
-  <div class="box-head">
-
+ <header class="header-container">
+  <nav class="navbar-container">
+      <div >
+        <a href="index.html" class="header-logo">Portfolio</a> 
+      </div>
+       <ul class="header-links">
+         <li><a href="index.html">Home</a></li>
+         <li><a href="project.html">Projects</a></li>
+         <li><a href="About.html">About me</a></li>
+       </ul>
+     <div class="hamburger-menu">
+      <span class="hmenu"></span>
+      <span class="hmenu"></span>
+      <span class="hmenu"></span>
   </div>
-  <!-- section 1 ******************************************* -->
-  <section class="main-container">
+  </nav>
 
-<!-- Name conatiner ****************************** -->
+</header>
+
+<!-- Main Container   -->
+  <section >
+<div class="main-container">
+
+<!-- Name Conatiner -->
 <div class="name-container">
 
     <h4 class="name">Hi, I'm Prasath </h4>
@@ -47,9 +56,10 @@
 </div>
 
 
+</div>
 
   </section>
 
-  
+<script src="./assets/js/script.js"></script>  
 </body>
 </html>
